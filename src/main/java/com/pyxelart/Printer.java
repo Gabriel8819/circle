@@ -6,5 +6,9 @@ public class Printer {
 		return "Printing... " + val;
 	}
 	
+	public String echo(String val) {
+		return "Echo... " + val;
+	}
+	
 	
 }
