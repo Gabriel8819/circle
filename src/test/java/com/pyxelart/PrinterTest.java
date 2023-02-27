@@ -19,7 +19,7 @@ public class PrinterTest {
 	
 	@Test
 	void givenAPrinter_whenEnterAValue_EchoTheValue() {
-		String result = printer.echo("Hello World");
+		String result =  printer.echo("Hello World");
 		String expected = "Echo... Hello World";
 		assertEquals(expected, result);
 	}
